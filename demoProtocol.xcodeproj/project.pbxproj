@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA40C9B719D995080082907B /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA40C9B619D995080082907B /* secondViewController.m */; };
 		BAD686CE19D979740040DAD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD686CD19D979740040DAD8 /* main.m */; };
 		BAD686D119D979740040DAD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD686D019D979740040DAD8 /* AppDelegate.m */; };
 		BAD686D419D979740040DAD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD686D319D979740040DAD8 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		BAD686D919D979740040DAD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD686D819D979740040DAD8 /* Images.xcassets */; };
 		BAD686DC19D979740040DAD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD686DA19D979740040DAD8 /* LaunchScreen.xib */; };
 		BAD686E819D979740040DAD8 /* demoProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD686E719D979740040DAD8 /* demoProtocolTests.m */; };
+		BAD686F419D981BF0040DAD8 /* myTry.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD686F319D981BF0040DAD8 /* myTry.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA40C9B419D98D750082907B /* myFirstProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myFirstProtocol.h; sourceTree = "<group>"; };
+		BA40C9B519D995080082907B /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		BA40C9B619D995080082907B /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
 		BAD686C819D979740040DAD8 /* demoProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD686CC19D979740040DAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAD686CD19D979740040DAD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		BAD686E119D979740040DAD8 /* demoProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD686E619D979740040DAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAD686E719D979740040DAD8 /* demoProtocolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoProtocolTests.m; sourceTree = "<group>"; };
+		BAD686F319D981BF0040DAD8 /* myTry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myTry.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 				BAD686D219D979740040DAD8 /* ViewController.h */,
 				BAD686D319D979740040DAD8 /* ViewController.m */,
 				BAD686D519D979740040DAD8 /* Main.storyboard */,
+				BA40C9B419D98D750082907B /* myFirstProtocol.h */,
+				BA40C9B519D995080082907B /* secondViewController.h */,
+				BA40C9B619D995080082907B /* secondViewController.m */,
 				BAD686D819D979740040DAD8 /* Images.xcassets */,
 				BAD686DA19D979740040DAD8 /* LaunchScreen.xib */,
 				BAD686CB19D979740040DAD8 /* Supporting Files */,
@@ -96,6 +105,7 @@
 		BAD686CB19D979740040DAD8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BAD686F319D981BF0040DAD8 /* myTry.png */,
 				BAD686CC19D979740040DAD8 /* Info.plist */,
 				BAD686CD19D979740040DAD8 /* main.m */,
 			);
@@ -200,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAD686D719D979740040DAD8 /* Main.storyboard in Resources */,
+				BAD686F419D981BF0040DAD8 /* myTry.png in Resources */,
 				BAD686DC19D979740040DAD8 /* LaunchScreen.xib in Resources */,
 				BAD686D919D979740040DAD8 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA40C9B719D995080082907B /* secondViewController.m in Sources */,
 				BAD686D419D979740040DAD8 /* ViewController.m in Sources */,
 				BAD686D119D979740040DAD8 /* AppDelegate.m in Sources */,
 				BAD686CE19D979740040DAD8 /* main.m in Sources */,
@@ -297,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = demoProtocol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = demoProtocol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +428,7 @@
 				BAD686ED19D979740040DAD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAD686EE19D979740040DAD8 /* Build configuration list for PBXNativeTarget "demoProtocolTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +437,7 @@
 				BAD686F019D979740040DAD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
