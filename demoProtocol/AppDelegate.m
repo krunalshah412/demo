@@ -16,7 +16,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    //test first chnage ronak shastri
     // Override point for customization after application launch.
     return YES;
 }
